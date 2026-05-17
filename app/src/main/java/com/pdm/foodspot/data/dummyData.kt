@@ -167,7 +167,7 @@ val restaurantList: List<Restaurant> = listOf(
             name = "Brew & Co",
             description = "Café de especialidad, tés artesanales y bebidas frías para cada momento del día.",
             imageUrl = "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800",
-            categories = listOf("Bebidas", "Café"),
+            categories = listOf("Café"),
             menu = listOf(
                 Dish(34, "Latte de Vainilla", "Espresso doble, leche vaporizada y sirope de vainilla",
                     "https://images.unsplash.com/photo-1561882468-9110e03e0f78?w=400"),
@@ -237,7 +237,7 @@ val restaurantList: List<Restaurant> = listOf(
         name = "Café 503",
         description = "Café de especialidad cultivado en las faldas del volcán Santa Ana.",
         imageUrl = "https://i.pinimg.com/736x/1d/1a/8c/1d1a8c92372bd05656af230897968371.jpg",
-        categories = listOf("Café", "Bebidas"),
+        categories = listOf("Café"),
         menu = listOf(
             Dish(49, "Café de Olla", "Café negro con canela y piloncillo al estilo tradicional",
                 "https://i.pinimg.com/736x/5a/8f/fa/5a8ffa5587ad2594ae05cc9ed3e9c937.jpg"),

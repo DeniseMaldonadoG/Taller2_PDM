@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
-    kotlin("plugin.serialization") version "2.0.21"
+    alias(libs.plugins.kotlin.serialization)
 
 }
 
@@ -56,6 +56,7 @@ dependencies {
     implementation(libs.coil.compose)
     implementation("androidx.lifecycle:lifecycle-viewmodel-navigation3:1.0.0-rc01")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
