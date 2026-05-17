@@ -10,16 +10,16 @@ val restaurantList: List<Restaurant> = listOf(
             name = "Santa Burguesa",
             description = "True burgers with fresh ingredients.",
             imageUrl = "https://d3jky06km58rdx.cloudfront.net/assets/images/store/san-salvador/IcC45Fepzw79vPdVSC1J51IUqnv2JgaQ7s21EpF4.webp",
-            categories = listOf("Comida Rapida", "Hamburguesas"),
+            categories = listOf("Comida Rápida", "Hamburguesas"),
             menu = listOf(
                 Dish(1, "CHICKEN PERFECTA", "Pechuga de pollo, queso americano, lechuga, tomate, cebolla, pepinillos. salsas a escoger: secreta, smoke, Chipotle, parmesano, ranch o BBQ.",
-                    "https://www.instagram.com/santaburguesa.sv/p/DWJ3HG1DO-G/?hl=es-la"),
+                    "https://tb-static.uber.com/prod/image-proc/processed_images/553b81c92757025008d4d58c890c49b6/70aa2a4db7f990373ca9c376323e3dea.jpeg"),
                 Dish(2, "SEÑORITA GUACAMOLE", "Pechuga de pollo, queso mozzarella, tocino, guacamole, con un toque de tajín, lechuga, tomate y salsa Chipotle.",
                     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuMLsNAboo1OdtF_dB70kGnR-DLwg94dEP1Q&s"),
                 Dish(3, "BABY", "Carne Angus Blend, queso americano, salsa secreta, lechuga, tomate, cebolla y pepinillos.",
-                    "https://www.instagram.com/santaburguesa.sv/p/DXXKY-Nikwi/?hl=es-la"),
+                    "https://d3jky06km58rdx.cloudfront.net/assets/images/store/san-salvador/ryhQVM4owsDLN7VIUZE3Qs14R3GG0NPdd3WrXv6H.webp"),
                 Dish(4, "SMOKEY BACON", "Carne Angus Blend, queso americano, tocino, salsa smoke, cebolla crispy, pepinillos y un toque de salsa barbacoa.",
-                    "https://www.instagram.com/santaburguesa.sv/p/DNdwAyhu5cm/?hl=es-la")
+                    "https://www.foood.app/santaburguesa/images/cover.jpg")
             )
         ),
         Restaurant(
@@ -34,7 +34,7 @@ val restaurantList: List<Restaurant> = listOf(
                 Dish(6, "Combo personañ 1", "Menú Super Campero (2 o 3 piezas de pollo + papas + bebida)",
                     "https://cdn-pro.elsalvador.com/wp-content/uploads/2022/09/Campero-1.jpg"),
                 Dish(7, "Sandwich de Pollo", "Pechuga empanizada, pepinillos y mayonesa especial",
-                    "https://images.unsplash")
+                    "https://www.meatpoultry.com/ext/resources/2022/07/28/Pollo_Campero_Spicy_Chicken_Sandwich.jpg?height=418&t=1659022219&width=800")
             )
         ),
         Restaurant(
@@ -185,7 +185,7 @@ val restaurantList: List<Restaurant> = listOf(
             name = "La Cantina",
             description = "Cocina mexicana tradicional con sabores auténticos y ambiente festivo.",
             imageUrl = "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800",
-            categories = listOf("Mexicana"),
+            categories = listOf("Mexicana", "Comida Rápida"),
             menu = listOf(
                 Dish(38, "Enchiladas Verdes", "Tortillas rellenas de pollo, salsa verde y crema",
                     "https://images.unsplash.com/photo-1534352956036-cd81e27dd615?w=400"),
@@ -196,18 +196,71 @@ val restaurantList: List<Restaurant> = listOf(
             )
         ),
 
+    Restaurant(
+        id = 12,
+        name = "Estilo de Vida",
+        description = "Bowls nutritivos, jugos naturales y ensaladas para un estilo de vida sano.",
+        imageUrl = "https://i1-e.pinimg.com/736x/12/8a/bd/128abdd666828e7c78be290fc4430aaa.jpg",
+        categories = listOf("Saludable"),
+        menu = listOf(
+            Dish(41, "Bowl de Quinoa", "Quinoa, aguacate, huevo pochado y aderezo de limón",
+                "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400"),
+            Dish(42, "Jugo Verde", "Espinaca, pepino, manzana verde y jengibre",
+                "https://images.unsplash.com/photo-1568909344668-6f14a07b56a0?w=400"),
+            Dish(43, "Ensalada Tropical", "Lechuga, mango, fresas, almendras y vinagreta",
+                "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400"),
+            Dish(44, "Wrap Vegano", "Tortilla integral, hummus, zanahoria y espinaca",
+                "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400")
+        )
+    ),
+
+    Restaurant(
+        id = 13,
+        name = "Burger Bros",
+        description = "Hamburguesas artesanales con carne de res nacional y pan brioche horneado.",
+        imageUrl = "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800",
+        categories = listOf("Comida Rápida", "Hamburguesas"),
+        menu = listOf(
+            Dish(45, "Burger Doble", "Doble carne, queso americano, lechuga y tomate",
+                "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400"),
+            Dish(46, "Smash Burger", "Carne aplastada, queso cheddar y cebolla caramelizada",
+                "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=400"),
+            Dish(47, "Hot Dog Especial", "Salchicha, guacamole, jalapeños y queso fundido",
+                "https://i.pinimg.com/736x/bb/52/1c/bb521cf21338ec6bc355e631cbd767a5.jpg"),
+            Dish(48, "Papas con Queso", "Papas fritas cubiertas de queso fundido y tocino",
+                "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400")
+        )
+    ),
+
+    Restaurant(
+        id = 14,
+        name = "Café 503",
+        description = "Café de especialidad cultivado en las faldas del volcán Santa Ana.",
+        imageUrl = "https://i.pinimg.com/736x/1d/1a/8c/1d1a8c92372bd05656af230897968371.jpg",
+        categories = listOf("Café", "Bebidas"),
+        menu = listOf(
+            Dish(49, "Café de Olla", "Café negro con canela y piloncillo al estilo tradicional",
+                "https://i.pinimg.com/736x/5a/8f/fa/5a8ffa5587ad2594ae05cc9ed3e9c937.jpg"),
+            Dish(50, "Horchata Fría", "Bebida de arroz, canela y semilla de morro bien fría",
+                "https://i.pinimg.com/736x/06/72/c2/0672c2cd7c18fcb9d91ee7ef14d2b5b8.jpg"),
+            Dish(51, "Fresco de Tamarindo", "Tamarindo natural con azúcar y hielo",
+                "https://i1-e.pinimg.com/1200x/28/8f/93/288f9308804ee96dad69495cfce787be.jpg"),
+            Dish(52, "Licuado de Mamey", "Mamey fresco, leche y una pizca de canela",
+                "https://i1-e.pinimg.com/1200x/f1/d3/d6/f1d3d673b929188ccdad98774f3a0b44.jpg")
+        )
+    ),
         Restaurant(
-            id = 12,
+            id = 15,
             name = "Pho Saigon",
             description = "Auténtica sopa vietnamita con caldos cocinados lentamente durante horas.",
             imageUrl = "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=800",
             categories = listOf("Asiática", "Vietnamita"),
             menu = listOf(
-                Dish(41, "Pho Bo", "Caldo de res, fideos de arroz, cebollín y albahaca thai",
+                Dish(53, "Pho Bo", "Caldo de res, fideos de arroz, cebollín y albahaca thai",
                     "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=400"),
-                Dish(42, "Banh Mi", "Baguette vietnamita, cerdo BBQ, pickles y cilantro",
+                Dish(54, "Banh Mi", "Baguette vietnamita, cerdo BBQ, pickles y cilantro",
                     "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=400"),
-                Dish(43, "Rollitos Frescos", "Camarones, vermicelli, lechuga y salsa de maní",
+                Dish(55, "Rollitos Frescos", "Camarones, vermicelli, lechuga y salsa de maní",
                     "https://images.unsplash.com/photo-1564489563601-c53cfc451e93?w=400")
             )
         )
